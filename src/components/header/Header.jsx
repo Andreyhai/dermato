@@ -17,10 +17,7 @@ const Header = () => {
 
                 {/* Логотип слева */}
                 <div className={styles.logo}>
-                    <a href="/" aria-label="На главную страницу">
-                        {/* Вставь сюда свой логотип, пока заглушка текстом */}
-                        MyPortfolio
-                    </a>
+                    MyPortfolio
                 </div>
 
                 {/* Навигация справа */}

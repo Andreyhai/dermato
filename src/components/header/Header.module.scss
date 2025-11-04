@@ -1,6 +1,8 @@
+@import "../../styles/variables";
+
 .header {
-  background-color: #fff; // Или любой цвет из твоего дизайна
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // Легкая тень для отделения от контента
+  background-color: #F7F1DF; // Или любой цвет из твоего дизайна
+  //box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // Легкая тень для отделения от контента
   position: fixed; // Чтобы хедер был всегда сверху
   top: 0;
   left: 0;
@@ -20,17 +22,16 @@
 
 // Стили для логотипа
 .logo {
-  a {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #2c3e50; // Темный цвет для лого
-    text-decoration: none;
-    transition: color 0.3s ease;
+  font-size: 1.5rem;
+  font-weight: 700;
+  //color: $purple-color; // Темный цвет для лого
+  text-decoration: none;
+  transition: color 0.3s ease;
+  //font-family: $momo-font;
 
-    // Добавляем ховер-эффект для интерактивности
-    &:hover {
-      color: #3498db; // Цвет при наведении
-    }
+  // Добавляем ховер-эффект для интерактивности
+  &:hover {
+    color: #3498db; // Цвет при наведении
   }
 }
 
@@ -42,7 +43,7 @@
     top: 70px;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: transparent;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     transform: translateY(-150%);
     opacity: 0;
